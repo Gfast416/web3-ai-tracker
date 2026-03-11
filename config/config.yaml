@@ -1,0 +1,15 @@
+# config/config.yaml
+# Add wallet addresses you want to monitor
+
+whale_threshold_eth: 10.0   # Alert if transfer >= this amount in ETH
+
+wallets:
+  - address: "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+    label: "Vitalik (example)"
+  
+  - address: "0xYOUR_WALLET_HERE"
+    label: "My wallet"
+
+  # Add more wallets below:
+  # - address: "0x..."
+  #   label: "Whale Wallet 1"
